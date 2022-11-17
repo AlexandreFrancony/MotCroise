@@ -1,0 +1,15 @@
+F:\Etudes\ESILV\BIN A3\C#\Doss\émilie\MotCroise\MotCroise\bin\Debug\net6.0\MotCroise.exe
+F:\Etudes\ESILV\BIN A3\C#\Doss\émilie\MotCroise\MotCroise\bin\Debug\net6.0\MotCroise.deps.json
+F:\Etudes\ESILV\BIN A3\C#\Doss\émilie\MotCroise\MotCroise\bin\Debug\net6.0\MotCroise.runtimeconfig.json
+F:\Etudes\ESILV\BIN A3\C#\Doss\émilie\MotCroise\MotCroise\bin\Debug\net6.0\MotCroise.dll
+F:\Etudes\ESILV\BIN A3\C#\Doss\émilie\MotCroise\MotCroise\bin\Debug\net6.0\MotCroise.pdb
+F:\Etudes\ESILV\BIN A3\C#\Doss\émilie\MotCroise\MotCroise\obj\Debug\net6.0\MotCroise.csproj.AssemblyReference.cache
+F:\Etudes\ESILV\BIN A3\C#\Doss\émilie\MotCroise\MotCroise\obj\Debug\net6.0\MotCroise.GeneratedMSBuildEditorConfig.editorconfig
+F:\Etudes\ESILV\BIN A3\C#\Doss\émilie\MotCroise\MotCroise\obj\Debug\net6.0\MotCroise.AssemblyInfoInputs.cache
+F:\Etudes\ESILV\BIN A3\C#\Doss\émilie\MotCroise\MotCroise\obj\Debug\net6.0\MotCroise.AssemblyInfo.cs
+F:\Etudes\ESILV\BIN A3\C#\Doss\émilie\MotCroise\MotCroise\obj\Debug\net6.0\MotCroise.csproj.CoreCompileInputs.cache
+F:\Etudes\ESILV\BIN A3\C#\Doss\émilie\MotCroise\MotCroise\obj\Debug\net6.0\MotCroise.dll
+F:\Etudes\ESILV\BIN A3\C#\Doss\émilie\MotCroise\MotCroise\obj\Debug\net6.0\refint\MotCroise.dll
+F:\Etudes\ESILV\BIN A3\C#\Doss\émilie\MotCroise\MotCroise\obj\Debug\net6.0\MotCroise.pdb
+F:\Etudes\ESILV\BIN A3\C#\Doss\émilie\MotCroise\MotCroise\obj\Debug\net6.0\MotCroise.genruntimeconfig.cache
+F:\Etudes\ESILV\BIN A3\C#\Doss\émilie\MotCroise\MotCroise\obj\Debug\net6.0\ref\MotCroise.dll
