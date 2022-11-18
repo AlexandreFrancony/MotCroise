@@ -26,7 +26,7 @@
         public static Joueur CreatePlayer(int WhereID, Joueur j)
         {
             Console.Clear();
-            Console.Write("Création d'un joueur : ");
+            Console.WriteLine("Création d'un joueur : ");
             while (j.pseudo == "" || j.pseudo == null)
             {
                 Console.Write("Entrez le pseudo du joueur : ");

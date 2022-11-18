@@ -5,6 +5,7 @@ namespace MotCroise
     internal class Data
     {
         // lire le fichier "CasSimple.csv" et le stocker dans un tableau de string
+        //string path = "..\\..\\..\\Data\\CasSimple.csv";
         public static string[] Read
         {
             get
