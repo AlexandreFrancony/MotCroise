@@ -27,7 +27,7 @@
         {
             Console.Clear();
             Console.Write("Création d'un joueur : ");
-            while (j.pseudo == "")
+            while (j.pseudo == "" || j.pseudo == null)
             {
                 Console.Write("Entrez le pseudo du joueur : ");
                 string? nick = Utils.saisieString();

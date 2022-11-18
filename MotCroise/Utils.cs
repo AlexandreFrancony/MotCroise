@@ -4,7 +4,20 @@
     {
         public static int saisieNombre()
         {
-            return Convert.ToInt32(Console.ReadLine());
+            //Saisie d'un nombre entier non null et retourne le nombre
+            int? nombre = null;
+            while (nombre == null)
+            {
+                try
+                {
+                    nombre = Convert.ToInt32(Console.ReadLine());
+                }
+                catch (Exception)
+                {
+                    Console.WriteLine("Le nombre ne peut pas être vide, Veuillez recommencer.");
+                }
+            }
+            return (int)nombre;
         }
 
         public static string saisieString()
