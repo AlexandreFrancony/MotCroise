@@ -30,8 +30,7 @@
 
                     case 2://Création
                         Console.Clear();
-                        Joueur j = new Joueur();
-                        joueursList[WhereID] = Joueur.CreatePlayer(WhereID, j);
+                        joueursList[WhereID] = Joueur.CreatePlayer(WhereID);
                         WhereID++;
                     break;
 
@@ -45,8 +44,7 @@
                     case 4://Read Data
                         Console.Clear();
                         Console.WriteLine("Lecture du fichier CSV");
-                        string[] lines = Data.Read;
-                        Data.Display(lines);
+                        Data.Display(Data.Read);
                     break;
 
                     case 9://Quitter

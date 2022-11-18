@@ -23,10 +23,11 @@
         }
 
         //Méthode pour créer un joueur
-        public static Joueur CreatePlayer(int WhereID, Joueur j)
+        public static Joueur CreatePlayer(int WhereID)
         {
             Console.Clear();
             Console.WriteLine("Création d'un joueur : ");
+            Joueur j = new Joueur();
             while (j.pseudo == "" || j.pseudo == null)
             {
                 Console.Write("Entrez le pseudo du joueur : ");
