@@ -5,6 +5,7 @@
         public int id;
         public string pseudo;
         public int score;
+        public string[] motsTrouves = new string[8];
 
         //Constructeur d'initialisation
         public Joueur(int id, string pseudo, int score)
@@ -49,10 +50,27 @@
         }
 
         //Méthode qui affiche les informations du joueur
-        public void infos()
+        public void toString()
         {
             Console.WriteLine("Affichage des informations\n\nID: " + this.id + " \nPseudo : " + this.pseudo + " \nScore : " + this.score);
             Utils.Wait();
+        }
+
+        public void addScore(int val)// j1.addScore(10);
+        {
+            this.score += val;
+        }
+
+        public void addWord(string word)//TODO : à verif
+        {
+            for (int i = 0; i < motsTrouves.Length; i++)
+            {
+                if (motsTrouves[i] == null)
+                {
+                    motsTrouves[i] = word;
+                    break;
+                }
+            }
         }
     }
 }

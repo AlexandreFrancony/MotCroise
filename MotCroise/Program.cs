@@ -17,6 +17,7 @@
                 Console.WriteLine("2. Créer un joueur");
                 Console.WriteLine("3. Afficher les informations d'un joueur");
                 Console.WriteLine("4. Afficher les informations de CasSimple.csv");
+                Console.WriteLine("5. AddScore");
                 Console.WriteLine("9. Quitter");
                 Console.Write("Votre choix : ");
                 choix = Utils.saisieNombre();
@@ -38,7 +39,7 @@
                         Console.Clear();
                         Console.Write("Entrez l'ID du joueur dont vous souhaitez connaitre les informations : ");
                         int id = Utils.saisieNombre();
-                        joueursList[id].infos();
+                        joueursList[id].toString();
                     break;
 
                     case 4://Read Data
@@ -46,6 +47,13 @@
                         Console.WriteLine("Lecture du fichier CSV");
                         Data.Display(Data.Read);
                     break;
+
+                    case 5:
+                        Console.Clear();
+                        joueursList[0].addScore(1);
+                        joueursList[0].toString();
+                        Utils.Wait();
+                        break;
 
                     case 9://Quitter
                         Console.Clear();
